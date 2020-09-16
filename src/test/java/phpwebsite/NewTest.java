@@ -19,7 +19,7 @@ public class NewTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://3.21.103.115:32768");
+		driver.get("http://18.223.117.41:32768");
 		
 		
 	  }
@@ -29,7 +29,7 @@ public class NewTest {
   @Test
   public void verify () {
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	  driver.navigate().to(" http://3.21.103.115:32768/content/about-us.php");
+	  driver.navigate().to(" http://18.223.117.41:32768/content/about-us.php");
 	  
 	  
 	  
