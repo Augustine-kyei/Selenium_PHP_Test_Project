@@ -20,11 +20,7 @@ public class NewTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://18.223.117.41:32768");
-		
-		
 	  }
-	
-	
 	
   @Test
   public void verify () {
@@ -36,5 +32,4 @@ public class NewTest {
   public void beforeTest() {
   }
   
- 
 }
