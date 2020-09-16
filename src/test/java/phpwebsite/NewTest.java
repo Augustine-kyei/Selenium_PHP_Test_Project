@@ -31,8 +31,6 @@ public class NewTest {
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	  driver.navigate().to(" http://18.223.117.41:32768/content/about-us.php");
 	  
-	  
-	  
   }
   @BeforeTest
   public void beforeTest() {
